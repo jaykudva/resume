@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  3 NOV 2020 15:19
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  1 MAR 2021 19:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -682,27 +682,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 57.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
 
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
  (./resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 137.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 135.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 3798DFA0353D1BD6F5B2D0FFD8C68148.
+(rerunfilecheck)             Checksum: A31235CA35B70142D972377E442221D7.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 135.
  ) 
 Here is how much of TeX's memory you used:
  20968 strings out of 492916
  402010 string characters out of 6133346
- 500804 words of memory out of 5000000
+ 500734 words of memory out of 5000000
  24898 multiletter control sequences out of 15000+600000
  532994 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
