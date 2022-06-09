@@ -1,6 +1,8 @@
 \documentclass{article}
 \usepackage[margin=0.5in]{geometry}
 \usepackage{sectsty, xcolor, enumitem, titlesec, titling, fontspec}
+\usepackage{fontawesome5}
+\usepackage{comment}
 \usepackage[hidelinks]{hyperref}
 
 \newfontfamily{\FAFR}{Font Awesome 5 Free Regular}
@@ -40,7 +42,7 @@
 	\end{flushleft}
 	\begin{bfseries}
 		\faEmail    \hspace{1pt} \href{mailto:jkudva@berkeley.edu}{jkudva@berkeley.edu} \quad
-		\faPhone    \hspace{1pt} (408) 410-1785 \quad
+		\faIcon{phone}    \hspace{1pt} 408-410-1785 \quad
 		\faLinkedin \hspace{1pt} \myhref{linkedin.com/in/jaykudva} \quad
 		\faGithub   \hspace{1pt} \myhref{github.com/jaykudva}
 	\end{bfseries}
@@ -54,31 +56,46 @@
 	
 	\section{Education}
 	\subsection{University of California, Berkeley}
-	\entry{Computer Science BA, Economics BA}{Aug 2019 - Dec 2022}{3.693 GPA}\\
+	\entry{Computer Science BA, Economics BA}{Aug 2019 - May 2023}{3.693 GPA}\\
 	\underline{Extracurriculars}:
-	UpSync Consulting, Poker @ Berkeley\\
+	Blueprint - Technology for Nonprofits, UpSync Consulting, Poker @ Berkeley\\
 	\underline{Coursework}:
 	Program Structure \& Interpretation,
 	Data Structures,
 	Discrete Math and Probability Theory,
 	Efficient Algorithms,	
-	Linear Algebra \& Differential Equations,
 	Microeconomics,
 	Macroeconomics,
-	Corporate Finance
+	Corporate Finance,
+	Cybersecurity,
+	Artificial Intelligence
 	
 	
 	
 	\section{Experience}
 	
 	\subsection{Software Development Engineer Intern}
-	\entry{\texorpdfstring{\protect\href{https://amazon.com}{Amazon}}}{May 2021 - Current}{Seattle, WA}{}
+	\entry{\texorpdfstring{\protect\href{https://amazon.com}{Amazon}}}{May 2021 - Aug 2021}{Seattle, WA}{}
 	\begin{itemize}
-	\item Developed Amazon seller-impacting product lifecycle management tool using AWS ECS, Fargate, and Neptune to consolidate 12 disjoint databases and led to a 5\% increase in service usage	amongst Operations
+	\begin{comment}
+	- overview of team/project
+	    - delivered end-to-end multimodal 
+	- what exactly you did (Tools/tech)
+	- impact
+	\end{comment}
+	
+	\item Delivered seller-impacting service to automate labor intensive process of tracking intermediate components used for building Amazon subscription boxes as part of the Subscriptions and Discovery Team
+	\item Led numerous design meetings about product scalability, impact, service architecture, and more QoL seller tools.
+	\item Leveraged AWS Neptune to consolidate 12 databases of various stages in product creation and GraphQL CRUD API's deployed using an ECS + Fargate service, cutting Operations' team discovery time by 75\%
+	
+	
+	\begin{comment}
 	\item Integrated tool into production CI/CD pipeline being used by 20+ internal teams, with 100+ daily developer interactions with the tool
-	\item Lead design meetings about product scalability, impact, service architecture, and more QoL seller tools
+	\item 
 	\item Decreased the Operations team's product development time by 30\% through the use of my service 
 	\item Constructed REST API endpoints, using Coral, with Gremlin to query Neptune over 4000 times per hour
+	\end{comment}
+	
 
 	\end{itemize}
 	
@@ -90,7 +107,7 @@
 	\item Automated the influencer onboarding process by authenticating and importing their existing social media information
 	\end{itemize}
 	
-	\subsection{CS88 Academic Intern}
+	\subsection{CS Class Academic Intern}
 	\entry{UC Berkeley}{Jan 2020 - May 2020}{Berkeley, CA}{Part-Time}
 	\begin{itemize}
 		\item Reinforced student knowledge of SQL and algorithms as course staff, developed personal research projects
@@ -99,20 +116,20 @@
 	\end{itemize}
 	
 	\section{Projects}
-	\subsection{\texorpdfstring{\protect\href{https://github.com/jaykudva/SlapEmoji}{SlapEmoji}} ?}
+	\subsection{SlapEmoji}
 	\entry{}{July 2020}{ReactJS, OpenCV}
 	\begin{itemize}
 		\item Developed an OpenCV based web-app to automatically place an emoji to your face attracting over 2000 MAU to the platform from scratch
 		\item Gained experience in React frameworks, Webpack, and Redux
 	\end{itemize}
 
-	\subsection{\texorpdfstring{\protect\href{https://github.com/jaykudva/did-you-}{did you?}} ?}
+	\subsection{Did You?}
 	\entry{}{May 2020}{Swift, Firebase}
 	\begin{itemize}
 		\item Created minimal iOS productivity app and gained full stack development experience including product design entire app workflow extensively in Sketch
 	\end{itemize}
 
-	\subsection{Bord Payment Systems}
+	\subsection{Bord Payments}
 	\entry{}{Sept 2019}{React, Node, MongoDB}
 	\begin{itemize}
 		\item Led frontend development of beta web app with dynamic components leveraging an MVC model
@@ -126,7 +143,7 @@
 	Frameworks:
 	ReactJS, VueJS, NodeJS, Apache Tinkerprop, Django,  \& OpenCV \\
 	Human Languages:
-	English (native), Konkani (fluent), Spanish (proficient) \\
+	English (native), Indian Language (fluent), Spanish (proficient) \\
 	General:
 	Linear Programming, Risk Analysis, Algorithm Design, Object-Oriented Design, UI/UX Design, Docker
 	
